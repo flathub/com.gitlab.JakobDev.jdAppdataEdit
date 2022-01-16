@@ -25,4 +25,4 @@ modules:
     sources:
       - type: archive
         url: https://gitlab.com/JakobDev/jdAppdataEdit/-/archive/2.1/jdAppdataEdit-2.1.tar.gz
-        sha256: c55d58ff7043aae6aba1e8be5164f124c0de1ec6046dcc2e136f70fa5bb8e656
+        sha256: b7a7eb62f9a419a5ebff16823fd2dfa6d15271f839aae8e3c886c0d964e8647d
