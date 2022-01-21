@@ -24,5 +24,5 @@ modules:
       - install -Dm644 com.gitlab.JakobDev.jdAppdataEdit.appdata.xml /app/share/metainfo/com.gitlab.JakobDev.jdAppdataEdit.metainfo.xml
     sources:
       - type: archive
-        url: https://gitlab.com/JakobDev/jdAppdataEdit/-/archive/2.1/jdAppdataEdit-2.1.tar.gz
-        sha256: b7a7eb62f9a419a5ebff16823fd2dfa6d15271f839aae8e3c886c0d964e8647d
+        url: https://gitlab.com/JakobDev/jdAppdataEdit/-/archive/3.0/jdAppdataEdit-3.0.tar.gz
+        sha256: 6879f60807f6ce1d75102a29efa5856aae34decc1ddf10c0d00c04fed5227c46
