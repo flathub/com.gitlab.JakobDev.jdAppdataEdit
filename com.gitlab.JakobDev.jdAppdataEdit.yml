@@ -2,7 +2,14 @@ app-id: com.gitlab.JakobDev.jdAppdataEdit
 runtime: org.kde.Platform
 runtime-version: "6.2"
 sdk: org.kde.Sdk
+base: com.riverbankcomputing.PyQt.BaseApp
+base-version: "6.2"
 command: jdappdataedit
+cleanup-commands:
+  - /app/cleanup-BaseApp.sh
+build-options:
+  env:
+    - BASEAPP_REMOVE_PYWEBENGINE=1
 finish-args:
   - --socket=fallback-x11
   - --share=ipc
@@ -11,18 +18,16 @@ finish-args:
   - --share=network
 
 modules:
-  - pyqt6.yml
   - python3-modules.json
 
   - name: jdAppdataEdit
     buildsystem: simple
     build-commands:
-      - lrelease jdAppdataEdit/i18n/*.ts
       - pip3 install --no-deps --no-use-pep517 --prefix=$FLATPAK_DEST .
       - install -Dm644 jdAppdataEdit/Icon.svg /app/share/icons/hicolor/scalable/apps/com.gitlab.JakobDev.jdAppdataEdit.svg
       - install -Dm644 com.gitlab.JakobDev.jdAppdataEdit.desktop /app/share/applications/com.gitlab.JakobDev.jdAppdataEdit.desktop
       - install -Dm644 com.gitlab.JakobDev.jdAppdataEdit.appdata.xml /app/share/metainfo/com.gitlab.JakobDev.jdAppdataEdit.metainfo.xml
     sources:
-      - type: archive
-        url: https://gitlab.com/JakobDev/jdAppdataEdit/-/archive/3.0/jdAppdataEdit-3.0.tar.gz
-        sha256: 6879f60807f6ce1d75102a29efa5856aae34decc1ddf10c0d00c04fed5227c46
+      - type: git
+        url: https://gitlab.com/JakobDev/jdAppdataEdit.git
+        tag: "3.0"
