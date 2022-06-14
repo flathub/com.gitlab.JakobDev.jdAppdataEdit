@@ -1,9 +1,9 @@
 app-id: com.gitlab.JakobDev.jdAppdataEdit
 runtime: org.kde.Platform
-runtime-version: "6.2"
+runtime-version: '6.2'
 sdk: org.kde.Sdk
 base: com.riverbankcomputing.PyQt.BaseApp
-base-version: "6.2"
+base-version: '6.2'
 command: jdappdataedit
 cleanup-commands:
   - /app/cleanup-BaseApp.sh
@@ -30,8 +30,8 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/JakobDev/jdAppdataEdit.git
-        tag: "3.1"
-        commit: a37f3c411c5a8818b3a8d7a999da92be5e0b350d
+        tag: '3.2'
+        commit: 5e3f509a4f30ebf06b2ea58aff3bfc2b50875110
         x-checker-data:
           type: git
           url: https://gitlab.com/JakobDev/jdAppdataEdit.git
