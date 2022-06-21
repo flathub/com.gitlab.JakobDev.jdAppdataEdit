@@ -16,6 +16,8 @@ finish-args:
   - --device=dri
   - --socket=wayland
   - --share=network
+  # For preview in Gnome Software
+  - --talk-name=org.freedesktop.Flatpak
 
 modules:
   - python3-modules.json
@@ -30,8 +32,8 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/JakobDev/jdAppdataEdit.git
-        tag: '3.2'
-        commit: 5e3f509a4f30ebf06b2ea58aff3bfc2b50875110
+        tag: '3.3'
+        commit: cb3a7f4a98ab762b40c862b0b09caf2ed7264b2e
         x-checker-data:
           type: git
           url: https://gitlab.com/JakobDev/jdAppdataEdit.git
