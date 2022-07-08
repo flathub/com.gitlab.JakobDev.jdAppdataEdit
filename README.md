@@ -1,0 +1,1 @@
+This is the official Flatpak for [jdAppdataEdit](https://gitlab.com/JakobDev/jdAppdataEdit)

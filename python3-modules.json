@@ -60,6 +60,10 @@
                         "packagetype": "bdist_wheel"
                     }
                 }
+            ],
+            "cleanup": [
+                "/bin",
+                "/share/man/man1"
             ]
         },
         {
@@ -78,6 +82,10 @@
                         "name": "lxml"
                     }
                 }
+            ],
+            "cleanup": [
+                "/bin",
+                "/share/man/man1"
             ]
         }
     ]

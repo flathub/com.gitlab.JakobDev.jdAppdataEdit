@@ -27,14 +27,13 @@ modules:
     build-commands:
       - pip3 install --no-deps --no-use-pep517 --prefix=$FLATPAK_DEST .
       - install -Dm644 jdAppdataEdit/Icon.svg /app/share/icons/hicolor/scalable/apps/com.gitlab.JakobDev.jdAppdataEdit.svg
-      - install -Dm644 com.gitlab.JakobDev.jdAppdataEdit.desktop /app/share/applications/com.gitlab.JakobDev.jdAppdataEdit.desktop
-      - install -Dm644 com.gitlab.JakobDev.jdAppdataEdit.appdata.xml /app/share/metainfo/com.gitlab.JakobDev.jdAppdataEdit.metainfo.xml
+      - install -Dm644 Deploy/com.gitlab.JakobDev.jdAppdataEdit.desktop $FLATPAK_DEST/share/applications/com.gitlab.JakobDev.jdAppdataEdit.desktop
+      - install -Dm644 Deploy/com.gitlab.JakobDev.jdAppdataEdit.metainfo.xml $FLATPAK_DEST/share/metainfo/com.gitlab.JakobDev.jdAppdataEdit.metainfo.xml
+      - install -Dm644 Deploy/x-freedesktop-appstream.xml $FLATPAK_DEST/share/mime/packages/com.gitlab.JakobDev.jdAppdataEdit.metainfo.xml
     sources:
       - type: git
         url: https://gitlab.com/JakobDev/jdAppdataEdit.git
-        tag: '3.3'
-        commit: cb3a7f4a98ab762b40c862b0b09caf2ed7264b2e
+        tag: '4.0'
+        commit: 11ff7ecff376ed27da99c9df6998f55a6732e357
         x-checker-data:
           type: git
-          url: https://gitlab.com/JakobDev/jdAppdataEdit.git
-          tag-pattern: (.+)
