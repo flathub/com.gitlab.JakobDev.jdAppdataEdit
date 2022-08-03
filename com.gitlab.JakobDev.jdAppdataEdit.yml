@@ -1,5 +1,5 @@
 app-id: com.gitlab.JakobDev.jdAppdataEdit
-runtime: org.kde.Platform
+runtime: org.kde.Sdk
 runtime-version: '6.3'
 sdk: org.kde.Sdk
 base: com.riverbankcomputing.PyQt.BaseApp
@@ -33,7 +33,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/JakobDev/jdAppdataEdit.git
-        tag: '4.1'
-        commit: c4263ed138c1038f1c74fe1c167b23988f8fc874
+        tag: '4.2'
+        commit: d5198b61f82d84e91bc6a5f5ce7a98b3944ce443
         x-checker-data:
           type: git
