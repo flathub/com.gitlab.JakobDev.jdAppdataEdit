@@ -33,7 +33,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/JakobDev/jdAppdataEdit.git
-        tag: '4.2'
-        commit: d5198b61f82d84e91bc6a5f5ce7a98b3944ce443
+        tag: '5.0'
+        commit: 9def5f0ce8d6791fe38f0dab63a656e433e644ee
         x-checker-data:
           type: git
