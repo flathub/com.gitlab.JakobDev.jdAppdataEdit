@@ -12,8 +12,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/6f/de/5be2e3eed8426f871b170663333a0f627fc2924cc386cd41be065e7ea870/urllib3-1.26.12-py2.py3-none-any.whl",
-                    "sha256": "b930dd878d5a8afb066a637fbb35144fe7901e3b209d1cd4f524bd0e9deee997",
+                    "url": "https://files.pythonhosted.org/packages/65/0c/cc6644eaa594585e5875f46f3c83ee8762b647b51fc5b0fb253a242df2dc/urllib3-1.26.13-py2.py3-none-any.whl",
+                    "sha256": "47cc05d99aaa09c9e72ed5809b60e7ba354e64b59c9c173ac3018642d8bb41fc",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "urllib3",
@@ -32,8 +32,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/db/51/a507c856293ab05cdc1db77ff4bc1268ddd39f29e7dc4919aa497f0adbec/charset_normalizer-2.1.1-py3-none-any.whl",
-                    "sha256": "83e9a75d1911279afd89352c68b45348559d1fc0506b054b346651b5e7fee29f",
+                    "url": "https://files.pythonhosted.org/packages/68/2b/02e9d6a98ddb73fa238d559a9edcc30b247b8dc4ee848b6184c936e99dc0/charset_normalizer-3.0.1-py3-none-any.whl",
+                    "sha256": "7e189e2e1d3ed2f4aebabd2d5b0f931e883676e51c7624826e0a4e5fe8a0bf24",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "charset_normalizer",
@@ -42,8 +42,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/1d/38/fa96a426e0c0e68aabc68e896584b83ad1eec779265a028e156ce509630e/certifi-2022.9.24-py3-none-any.whl",
-                    "sha256": "90c1a32f1d68f940488354e36370f6cca89f0f106db09518524c88d6ed83f382",
+                    "url": "https://files.pythonhosted.org/packages/71/4c/3db2b8021bd6f2f0ceb0e088d6b2d49147671f25832fb17970e9b583d742/certifi-2022.12.7-py3-none-any.whl",
+                    "sha256": "4ad3232f5e926d6718ec31cfc1fcadfde020920e278684144551c91769c7bc18",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "certifi",
@@ -97,8 +97,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/ea/4d/0c32ca49e9386a72f3e20ba317fc275d1c5b33032d9fc8c9ba35ce5a952a/desktop_entry_lib-1.0-py3-none-any.whl",
-                    "sha256": "349a3d4779f353857767d51bbad93d45f7ecb4594264aa0d26a821929e1b30a9",
+                    "url": "https://files.pythonhosted.org/packages/eb/92/db1c4ab1e7d088bfc0fe05e564afc113b54bbf8e9a411dd15f06c172f1e9/desktop_entry_lib-2.0-py3-none-any.whl",
+                    "sha256": "8f4d922020afdf86de59d4324a15f4e2fe66446360cbc2f21ede451ec4163e91",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "desktop_entry_lib",
