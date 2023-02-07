@@ -97,8 +97,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/22/4b/3e519a1e062d39ff0affb969e2e32f14c8765b84f2d5223ba9488f3c04aa/desktop_entry_lib-2.3-py3-none-any.whl",
-                    "sha256": "d2d4f8dfbf2e5a168722b14ae98c3f7e4af7f49e895c909dcbc31541c079b72f",
+                    "url": "https://files.pythonhosted.org/packages/ee/71/ed5a369ecb2681ea6c1656057504bea634853cef21388afb13e829ad017c/desktop_entry_lib-3.0-py3-none-any.whl",
+                    "sha256": "ad78a3fd5d07f148584c8040984893ed9d5486331aa85b76ce713bf4771c3f36",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "desktop_entry_lib",
